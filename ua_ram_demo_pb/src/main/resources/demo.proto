@@ -1,0 +1,10 @@
+option java_package = "com.urbanairship.ram.demo.proto";
+option java_outer_classname = "DemoTweet";
+
+enum RequestType {
+    SUBMIT = 1;
+}
+message Tweet{
+required string tweetmsg = 1;
+required int32 tweetid = 2;
+}
